@@ -33,3 +33,8 @@ fungsi abadi() {
     antos(1000);
 }
 ```
+
+---
+
+© 2024 Npswara - Semua hak dilindungi MIT.
+
