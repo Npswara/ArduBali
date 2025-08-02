@@ -1,15 +1,15 @@
-#include <ArduBali.h>
+#include "ArduBali.h"
 
-angke i = 0; 
+angke i; // Tipe data angka (int)
 
 fungsi nyiapang() {
-    Mekawit(9600);
-    cetakln("Program dimulai!");
+    antuk(i = 0; i < 10; i = i = 1){
+        cetak("Angke ke - ");
+        cetak(i);
+        cetakln(""); 
+        antos(500)
+    }
+    cetak("Program suud")
 }
-
 fungsi abadi() {
-    cetak("Angka Ke - ");
-    cetakln(i);
-    i += 1;
-    antos(1000);
 }
