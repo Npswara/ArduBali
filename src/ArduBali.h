@@ -17,7 +17,7 @@
 #define antos delay
 #define maca digitalRead 
 
-#define Mekawit.begin Serial.begin
+#define Mekawit Serial.begin
 #define cetak Serial.print
 #define cetakln Serial.println
 #define ngirim analogWrite 
@@ -31,3 +31,4 @@
 #define abadi() loop()
 
 #endif // ARDUBALI_H
+
