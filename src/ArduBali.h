@@ -3,12 +3,11 @@
 
 #include <Arduino.h>
 
-
-#define PESU OUTPUT
-#define MECELEP INPUT
-#define NYALE HIGH
-#define AMOR LOW
-#define angkaDesimal float
+#define pesu OUTPUT
+#define mecelep INPUT
+#define nyale HIGH
+#define amor LOW
+#define desimal float
 #define becik true
 #define salah false
 
@@ -17,18 +16,16 @@
 #define antos delay
 #define maca digitalRead 
 
-#define Mekawit Serial.begin
+#define mekawit Serial.begin
 #define cetak Serial.print
 #define cetakln Serial.println
 #define ngirim analogWrite 
-#define macaAnalog analogRead 
+#define macanalog analogRead 
 #define antuk for
 
 #define angke int
-#define angkeDesimal float
 #define fungsi void
 #define nyiapang() setup()
 #define abadi() loop()
 
 #endif // ARDUBALI_H
-
