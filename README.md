@@ -1,7 +1,6 @@
 # ArduBali
 
-**ArduBali** adalah library Arduino yang mengubah sintaks Arduino menjadi Bahasa Bali. Library ini terinspirasi dari ArduIndo (Ajang Rahmat [Kelas Robot]) dan bertujuan untuk membuat pemrograman Arduino lebih mudah dipahami serta lebih dekat dengan budaya Bali.
-
+**ArduBali** adalah library Arduino yang mengubah sintaks Arduino menjadi Bahasa Bali.
 ## Fitur
 
 - Makro untuk status pin: `PESU`, `MECELEP`, `NYALE`, `AMOR`
@@ -64,3 +63,4 @@ fungsi abadi() {
 
 Selamat berkarya dengan **ArduBali**!  
 Ngiring ngametuangang inovasi ring jagat teknologi sane ngamolihang
+
