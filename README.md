@@ -5,7 +5,7 @@
 
 - Makro untuk status pin: `PESU`, `MECELEP`, `NYALE`, `AMOR`
 - Makro untuk fungsi dasar: `ngaturang`, `kontrol`, `antos`, `maca`, `macaAnalog`, `ngirim`
-- Makro untuk fungsi serial: `Mekawit.begin`, `cetak`, `cetakln`
+- Makro untuk fungsi serial: `Mekawit`, `cetak`, `cetakln`
 - Tipe data dan fungsi utama: `angke`, `angkeDesimal`, `fungsi`, `nyiapang`, `abadi`
 - Nilai logika: `becik`, `salah`
 
@@ -24,9 +24,11 @@ angke i; // Tipe data angka (int)
 
 fungsi nyiapang() {
     antuk(i = 0; i < 10; i = i = 1){
+        Mekawit(9600)
         cetak("Angke ke - ");
         cetak(i);
-        cetakln(""); 
+        cetakln("");
+        antos(500);
     }
     cetak("Program suud")
 }
@@ -63,4 +65,5 @@ fungsi abadi() {
 
 Selamat berkarya dengan **ArduBali**!  
 Ngiring ngametuangang inovasi ring jagat teknologi sane ngamolihang
+
 
