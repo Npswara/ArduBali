@@ -1,40 +1,66 @@
 # ArduBali
 
-ArduBali adalah library Arduino yang menyediakan makro dengan istilah Bahasa Bali. Yang dibuat untuk mempermudah orang bali dalam menggunakan arduino.
+**ArduBali** adalah library Arduino yang mengubah sintaks Arduino menjadi Bahasa Bali. Library ini terinspirasi dari ArduIndo (Ajang Rahmat [Kelas Robot]) dan bertujuan untuk membuat pemrograman Arduino lebih mudah dipahami serta lebih dekat dengan budaya Bali.
+
 ## Fitur
 
-- status pin: `PESU`, `MECELEP`, `NYALE`, `AMOR`
-- fungsi: `ngaturang`, `kontrol`, `antos`
-- Tipe data dan fungsi utama: `angke`, `fungsi`, `nyiapang`, `abadi`
-- Fungsi print: `cetak`, `cetakln`
+- Makro untuk status pin: `PESU`, `MECELEP`, `NYALE`, `AMOR`
+- Makro untuk fungsi dasar: `ngaturang`, `kontrol`, `antos`, `maca`, `macaAnalog`, `ngirim`
+- Makro untuk fungsi serial: `Mekawit.begin`, `cetak`, `cetakln`
+- Tipe data dan fungsi utama: `angke`, `angkeDesimal`, `fungsi`, `nyiapang`, `abadi`
+- Nilai logika: `becik`, `salah`
 
 ## Instalasi
 
 1. Download atau clone repository ini.
-2. Ubah file ke `zip` lalu masukan file zip tersebut ke arduino ide.
+2. Ubah ke dalam zip, lalu tambahkan library ini ke arduino ide anda dengan menggunakan zip
 3. Restart Arduino IDE jika sudah terbuka.
 
 ## Contoh Penggunaan
 
 ```cpp
-#include <ArduBali.h>
+#include "ArduBali.h"
 
-angke i = 0; 
+angke i; // Tipe data angka (int)
 
 fungsi nyiapang() {
-    Mekawit(9600);
-    cetakln("Program dimulai!");
+    antuk(i = 0; i < 10; i = i = 1){
+        cetak("Angke ke - ");
+        cetak(i);
+        cetakln(""); 
+    }
+    cetak("Program suud")
 }
-
 fungsi abadi() {
-    cetak("Angka Ke - ");
-    cetakln(i);
-    i += 1;
-    antos(1000);
 }
 ```
 
+## Daftar Sintaks
+
+| Bahasa Bali      | Arduino Asli      | Keterangan                        |
+|------------------|-------------------|-----------------------------------|
+| ngaturang        | pinMode           | Atur mode pin                     |
+| kontrol          | digitalWrite      | Tulis nilai digital ke pin        |
+| maca             | digitalRead       | Baca nilai digital dari pin       |
+| macaAnalog       | analogRead        | Baca nilai analog dari pin        |
+| ngirim           | analogWrite       | Tulis nilai PWM ke pin            |
+| antos            | delay             | Jeda waktu                        |
+| Mekawit.begin    | Serial.begin      | Mulai komunikasi serial           |
+| cetak            | Serial.print      | Cetak ke serial                   |
+| cetakln          | Serial.println    | Cetak ke serial (baris baru)      |
+| PESU             | OUTPUT            | Mode output                       |
+| MECELEP          | INPUT             | Mode input                        |
+| NYALE            | HIGH              | Nilai tinggi                      |
+| AMOR             | LOW               | Nilai rendah                      |
+| angke            | int               | Tipe data integer                 |
+| angkeDesimal     | float             | Tipe data pecahan                 |
+| fungsi           | void              | Tipe fungsi tanpa nilai balik      |
+| nyiapang()       | setup()           | Fungsi setup                      |
+| abadi()          | loop()            | Fungsi loop                       |
+| becik            | true              | Nilai benar                       |
+| salah            | false             | Nilai salah                       |
+
 ---
 
-© 2024 Npswara - Semua hak dilindungi MIT.
-
+Selamat berkarya dengan **ArduBali**!  
+Ngiring ngametuangang inovasi ring jagat teknologi sane ngamolihang
