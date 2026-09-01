@@ -1,6 +1,7 @@
 # ArduBali
 
-##EN
+## EN
+
 **ArduBali** is an Arduino library that converts Arduino syntax into Balinese.
 ## Features
 
@@ -10,12 +11,12 @@
 - Data types and core functions: angke, angkeDesimal, fungsi, nyiapang, abadi
 - Boolean values: becik, salah
 
-##Installation
+## Installation
 - Download or clone this repository.
 - Compress it into a .zip file, then add it to your Arduino IDE via Include .ZIP Library....
 - Restart the Arduino IDE if it is already open.
 
-##Usage Example
+## Usage Example
 
 ```cpp
 #include "ArduBali.h"
@@ -36,7 +37,7 @@ fungsi abadi() {
 }
 ```
 
-##Id
+## Id
 
 **ArduBali** adalah library Arduino yang mengubah sintaks Arduino menjadi Bahasa Bali.
 ## Fitur
