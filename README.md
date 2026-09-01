@@ -1,5 +1,43 @@
 # ArduBali
 
+##EN
+**ArduBali** is an Arduino library that converts Arduino syntax into Balinese.
+## Features
+
+- Macros for pin state: PESU, MECELEP, NYALE, AMOR
+- Macros for basic functions: ngaturang, kontrol, antos, maca, macaAnalog, ngirim
+- Macros for serial functions: Mekawit, cetak, cetakln
+- Data types and core functions: angke, angkeDesimal, fungsi, nyiapang, abadi
+- Boolean values: becik, salah
+
+##Installation
+- Download or clone this repository.
+- Compress it into a .zip file, then add it to your Arduino IDE via Include .ZIP Library....
+- Restart the Arduino IDE if it is already open.
+
+##Usage Example
+
+```cpp
+#include "ArduBali.h"
+
+angke i; // Number data type (int)
+
+fungsi nyiapang() {
+    antuk(i = 0; i < 10; i = i = 1){
+        Mekawit(9600)
+        cetak("Angke ke - ");
+        cetak(i);
+        cetakln("");
+        antos(500);
+    }
+    cetak("Program suud")
+}
+fungsi abadi() {
+}
+```
+
+##Id
+
 **ArduBali** adalah library Arduino yang mengubah sintaks Arduino menjadi Bahasa Bali.
 ## Fitur
 
@@ -35,6 +73,7 @@ fungsi nyiapang() {
 fungsi abadi() {
 }
 ```
+
 
 ## Daftar Sintaks
 
