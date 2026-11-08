@@ -14,14 +14,15 @@
 #define ngaturang pinMode
 #define kontrol digitalWrite
 #define antos delay
-#define maca digitalRead 
+#define maca digitalRead
 
 #define mekawit Serial.begin
 #define cetak Serial.print
 #define cetakln Serial.println
-#define ngirim analogWrite 
-#define macanalog analogRead 
+#define ngirim analogWrite
+#define macanalog analogRead
 #define antuk for
+#define yening if
 
 #define angke int
 #define fungsi void
