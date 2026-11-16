@@ -64,4 +64,19 @@
 #define abadi()    loop()
 // mekawit, cetak, cetakln sudah didefinisikan di bagian Serial di atas
 
+// ===== Istilah v1.0.0 di ardubali.id dan ZIP (Agustus 2025) =====
+// Istilah lain dari versi ini (desimal, ngaturang, kontrol, antos, mekawit,
+// cetak, cetakln, ngirim, macanalog, antuk, yening, angke, fungsi,
+// nyiapang, abadi) sudah didefinisikan di atas.
+#define keluaran       OUTPUT
+#define masukan        INPUT
+#define tegeh          HIGH
+#define endep          LOW
+#define beneh          true
+#define pelih          false
+#define nulisdigital   digitalWrite   // tertulis di tabel konversi situs
+#define macadigital    digitalRead
+#define liyanan        else
+#define liyanan_yening else if
+
 #endif // ARDUBALI_H
